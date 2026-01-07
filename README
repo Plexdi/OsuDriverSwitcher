@@ -1,6 +1,6 @@
 # Osu Driver Switcher
 
-A small Windows utility that automates the setup needed before playing **osu!**:
+A small Windows utility that automates the setup needed before playing osu!:
 
 - Disables Wacom drivers
 - Launches OpenTabletDriver
@@ -12,8 +12,8 @@ Built for personal use to remove repetitive manual steps.
 
 Requirements
 
-- **Windows**
-- **Python 3.10+**
+- Windows
+- **Python 3.10+
 - Administrator privileges (required to stop/start drivers)
 - Installed:
   - Wacom drivers
@@ -39,5 +39,6 @@ After you’ve updated the paths in `main.py` and confirmed the script works:
 
 1. You can turn the script into a standalone `.exe` using PyInstaller:
    py -m PyInstaller --onefile --noconsole --uac-admin main.py
+
 
 
