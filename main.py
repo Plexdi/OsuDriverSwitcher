@@ -26,7 +26,7 @@ def relaunch_as_admin() -> None:
     sys.exit(0)  # quit non-admin instance
 
 def main(): 
-    #MAKE SURE THERE IS NO SPACE IN YOUR PATH 
+    #MAKE SURE THERE IS NO SPACE IN YOUR PATH AND DO NOT REMOVE THE R AT THE BEGINNING 
     disable_open_tablet_driver_path = r"C:\Users\Thanh\OneDrive\Documents\Coding\OsuDriverSwitcher\DisableWacomDrivers.bat"
     open_tablet_driver_path = r"C:\Users\Thanh\OneDrive\Documents\OpenTabletDriver-0.6.5.1_win-x64\OpenTabletDriver.UX.Wpf.exe"
     osu_path = r"C:\Users\Thanh\AppData\Local\osu!\osu!.exe"
