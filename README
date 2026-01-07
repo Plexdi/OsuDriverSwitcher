@@ -1,4 +1,4 @@
-# Osu Driver Switcher
+Osu Driver Switcher
 
 A small Windows utility that automates the setup needed before playing osu!:
 
@@ -39,6 +39,7 @@ After you’ve updated the paths in `main.py` and confirmed the script works:
 
 1. You can turn the script into a standalone `.exe` using PyInstaller:
    py -m PyInstaller --onefile --noconsole --uac-admin main.py
+
 
 
 
