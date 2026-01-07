@@ -28,7 +28,15 @@ Built for personal use to remove repetitive manual steps.
 
 2. Open `main.py` and update the paths at the top of `main()`:
 
-```python
+
 disable_open_tablet_driver_path = r"C:\path\to\DisableWacomDrivers.bat"
 open_tablet_driver_path = r"C:\path\to\OpenTabletDriver.UX.Wpf.exe"
 osu_path = r"C:\path\to\osu!.exe"
+
+## Tip: Turn it into a one-click executable
+
+After you’ve updated the paths in `main.py` and confirmed the script works:
+
+1. You can turn the script into a standalone `.exe` using **PyInstaller**:
+   ```bash
+   py -m PyInstaller --onefile --noconsole --uac-admin main.py
